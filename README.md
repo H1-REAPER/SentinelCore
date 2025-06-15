@@ -1,5 +1,10 @@
 # 🛡️ SentinelCore: Smart Network Fortress
 
+![MIT License](https://img.shields.io/badge/license-MIT-blue)
+![Built with FastAPI](https://img.shields.io/badge/Built%20with-FastAPI-005571?logo=fastapi)
+![Raspberry Pi](https://img.shields.io/badge/hardware-Raspberry%20Pi-red)
+![ESP32](https://img.shields.io/badge/device-ESP32-blue)
+
 **The world’s first Raspberry Pi-based, plug-and-play AI-powered cybersecurity fortress** for homes, SMBs, NGOs, journalists, activists, and cybersecurity enthusiasts.
 
 
