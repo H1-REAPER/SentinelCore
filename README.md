@@ -77,27 +77,27 @@ Designed for **homes**, **SMBs**, **NGOs**, **journalists**, **activists**, and 
 SentinelCore is a **distributed, modular, and privacy-first** platform orchestrated by a Raspberry Pi 4 and three ESP32 nodes, communicating via MQTT over a dedicated Wi-Fi hotspot. The React/Bolt Web UI and FastAPI backend are hosted **locally** on the Pi, exposed globally via a **Cloudflare Tunnel** for secure, worldwide access without cloud hosting. Below is the network topology:
 
 ```
-+---------------------------------------+                +------------------+
-|           Internet/Router             |                |  User Device     |
-| (for Pi Internet/Cloudflare Tunnel)   |                | (Laptop/Phone)   |
-+------------------+--------------------+                +------------------+
-                   | Ethernet/Wi-Fi (to Router for Internet)         ^
-                   |                                                 |
-                   |      Cloudflare Tunnel (Secure Internet Access) |
-                   |      +------------------------------------------+
-                   |      |           (Exposes Pi services to public domain)
-                   v      v
-+------------------+--------------------------------------------------+
-|                          Raspberry Pi 4 B (Central Hub)             |
-|     +------------------------------------------------------------+  |
-|     |  - Wi-Fi Hotspot (SSID: SentinelCore_Fortress)            |   |
-|     |  - Mosquitto MQTT Broker                                  |   |
-|     |  - Dockerized Backend + AI Inference Module (FastAPI)     |   |
-|     |  - Web Dashboard UI (React/Bolt - SERVED LOCALLY)         |   |
-|     |  - OTA Firmware Server                                    |   |
-|     |  - Cloudflare Tunnel Client                               |   |
-|     +-----------------------------------------------------------+   |
-+-----------------------------------^---------------------------------+
++---------------------------------------+               +------------------+
+|           Internet/Router             |               |  User Device     |
+| (for Pi Internet/Cloudflare Tunnel)   |               | (Laptop/Phone)   |
++------------------+--------------------+               +------------------+
+                   | Ethernet/Wi-Fi (to Router for Internet)           ^
+                   |                                                   |
+                   |       Cloudflare Tunnel (Secure Internet Access)  |
+                   |        +------------------------------------------+
+                   |        |           (Exposes Pi services to public domain)
+                   v        v
++------------------+---------------------------------------------------+
+|                          Raspberry Pi 4 B (Central Hub)              |
+|     +------------------------------------------------------------+   |
+|     |  - Wi-Fi Hotspot (SSID: SentinelCore_Fortress)             |   |
+|     |  - Mosquitto MQTT Broker                                   |   |
+|     |  - Dockerized Backend + AI Inference Module (FastAPI)      |   |
+|     |  - Web Dashboard UI (React/Bolt - SERVED LOCALLY)          |   |
+|     |  - OTA Firmware Server                                     |   |
+|     |  - Cloudflare Tunnel Client                                |   |
+|     +------------------------------------------------------------+   |
++-----------------------------------^----------------------------------+
                                     | MQTT over Wi-Fi (Bi-directional)
                                     |
 +------------------+      +------------------+      +------------------+
