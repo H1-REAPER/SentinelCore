@@ -1,7 +1,8 @@
 # 🛡️ SentinelCore: Smart Network Fortress
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)[![GitHub Issues](https://img.shields.io/github/issues/AsHfIEXE/SentinelCore)](https://github.com/AsHfIEXE/SentinelCore/issues)[![GitHub Stars](https://img.shields.io/github/stars/AsHfIEXE/SentinelCore?style=social)](https://github.com/AsHfIEXE/SentinelCore)[![Code Coverage](https://img.shields.io/codecov/c/github/AsHfIEXE/SentinelCore)](https://codecov.io/gh/AsHfIEXE/SentinelCore)[![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2025-orange)](https://hacktoberfest.com/)[![Documentation](https://readthedocs.org/projects/sentinelcore/badge/?version=latest)](https://sentinelcore.readthedocs.io/)[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/AsHfIEXE/SentinelCore/blob/main/CODE_OF_CONDUCT.md)
 
 \
-**Built with**: FastAPI, Raspberry Pi, ESP32, Docker, React, Bolt UI
+**Built with**: FastAPI, Raspberry Pi, ESP32, Docker, React, 
 
 In a world besieged by 1.5 billion IoT attacks and 90% of breaches driven by phishing, **SentinelCore** emerges as the **world’s first Raspberry Pi-based, plug-and-play AI-powered cybersecurity fortress**. Crafted by a solo developer, this revolutionary platform transforms a $35 Raspberry Pi 4 and three ESP32 nodes into an **enterprise-grade defense suite**, delivering real-time threat detection, rogue device isolation, parental controls, honeypot DNS traps, and cutting-edge vulnerability scanning. Hosted entirely locally with secure global access via **Cloudflare Tunnel**, SentinelCore empowers homes, SMBs, NGOs, journalists, activists, and cybersecurity enthusiasts to reclaim their networks with unmatched **privacy**, **simplicity**, and **power**.
 
