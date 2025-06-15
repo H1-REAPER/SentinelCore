@@ -1,3 +1,5 @@
+![e03bd840-9c03-443b-93a2-bc0f5342aaad](https://github.com/user-attachments/assets/94e9f090-5886-47cc-9890-84159d66978d)
+
 # 🛡️ SentinelCore: Smart Network Fortress
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)[![GitHub Issues](https://img.shields.io/github/issues/AsHfIEXE/SentinelCore)](https://github.com/AsHfIEXE/SentinelCore/issues)[![GitHub Stars](https://img.shields.io/github/stars/AsHfIEXE/SentinelCore?style=social)](https://github.com/AsHfIEXE/SentinelCore)[![Code Coverage](https://img.shields.io/codecov/c/github/AsHfIEXE/SentinelCore)](https://codecov.io/gh/AsHfIEXE/SentinelCore)[![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2025-orange)](https://hacktoberfest.com/)[![Documentation](https://readthedocs.org/projects/sentinelcore/badge/?version=latest)](https://sentinelcore.readthedocs.io/)[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/AsHfIEXE/SentinelCore/blob/main/CODE_OF_CONDUCT.md)
 
