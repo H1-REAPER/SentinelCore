@@ -4,7 +4,7 @@
 
 
 
-*(Replace with actual architecture diagram when available)*
+
 
 ```
 +------------------+                        +--------------------------+
